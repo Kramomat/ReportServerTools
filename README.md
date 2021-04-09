@@ -26,7 +26,8 @@ Copies the subscription list and subscription log  ReportServerTools DB, so anal
    - A username and a password, which can be used to access the report server and the according reports via http, if you like to use cache warming
    - A connectionstring to reach your ReportServerTools database. 
    - The name of your ReportServer DB. ReportServerTools DB and ReportServer DB need to reside on the same SQL Server 
-2. Automate the execution of ReportServerTools
+2. Create ReportServerTools database using dacpac file
+3. Automate the execution of ReportServerTools
    If you like to do this via SQL Server Agent, you need to create a credential and a CmdExec proxy first, of a user which has sysadmin rights and local rights to executed the ReportServerTools.exe file
    Then create a job with several steps and the parameters you like to use.   
 
