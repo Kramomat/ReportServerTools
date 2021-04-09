@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ReportServerTools.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ReportServerURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://yourreportserveradress/</Value>
+    </Setting>
+    <Setting Name="Benutzername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DOMAIN\Username</Value>
+    </Setting>
+    <Setting Name="Passwort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Password</Value>
+    </Setting>
+    <Setting Name="SQLConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=(local);Initial Catalog=ReportServerTools;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="ReportServerDBName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ReportServer</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
