@@ -62,5 +62,9 @@
   <ItemGroup>
     <Build Include="dbo\Tables\CacheWarmingLog.sql" />
     <Build Include="dbo\Tables\CacheWarming.sql" />
+    <Build Include="dbo\Tables\Subscriptions.sql" />
+    <Build Include="dbo\Tables\SubscriptionHistory.sql" />
+    <Build Include="dbo\Tables\ExecutionLogStorage_1.sql" />
+    <Build Include="dbo\Tables\CatalogHistory_1.sql" />
   </ItemGroup>
 </Project>
